@@ -1,0 +1,30 @@
+.btn-play {
+    display: flex;
+    margin: 0px auto;
+    text-decoration: none;
+    background: rgba(96,87,250,1);
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn-detail {
+    display: flex;
+    margin: 0px auto;
+    background: rgb(130, 126, 189);
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-play:hover {
+    background: rgb(129, 122, 248);
+}
+
+.btn-detail:hover {
+    background: rgb(99, 96, 145);
+}

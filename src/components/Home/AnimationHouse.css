@@ -1,0 +1,120 @@
+@keyframes drawLine1 {
+    to {
+      width: 150px;
+    }
+}
+
+@keyframes drawLine2 {
+    to {
+        height: 150px;
+    }
+}
+
+@keyframes drawLine3 {
+    to {
+        width: 150px;
+        left: 50px;
+    }
+}
+
+@keyframes drawLine4 {
+    to {
+        height: 120px;
+    }
+}
+
+@keyframes drawLine5 {
+    to {
+        width: 450px;
+    }
+}
+
+@keyframes drawLine6 {
+    to {
+        height: 120px;
+        bottom: 170px;
+    }
+}
+  
+.line1 {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    width: 0;
+    height: 5px;
+    background: white;
+    animation: drawLine1 0.5s ease 0.5s forwards;
+}
+
+.line2 {
+    position: absolute;
+    bottom: 20px;
+    left: 200px;
+    width: 5px;
+    height: 0px;
+    background: white;
+    animation: drawLine2 0.5s ease 1s forwards;
+}
+
+.line3 {
+    position: absolute;
+    bottom: 165px;
+    left: 200px;
+    width: 0;
+    height: 5px;
+    background: white;
+    animation: drawLine3 0.5s ease 1.5s forwards;
+}
+
+.line4 {
+    position: absolute;
+    bottom: 165px;
+    left: 50px;
+    width: 5px;
+    height: 0px;
+    background: white;
+    animation: drawLine4 0.5s ease 2s forwards;
+}
+
+.line5 {
+    position: absolute;
+    bottom: 285px;
+    left: 50px;
+    width: 0px;
+    height: 5px;
+    background: white;
+    animation: drawLine5 0.5s ease 2.5s forwards;
+}
+
+.line6 {
+    position: absolute;
+    bottom: 285px;
+    left: 500px;
+    width: 5px;
+    height: 0px;
+    background: white;
+    animation: drawLine6 0.5s ease 3s forwards;
+}
+
+.lineButton {
+    background:#6057f1;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 130px;
+    left: 410px;
+}
+
+.lineButton:hover {
+    background: white;
+    color: #6057f1;
+}
+
+
+
+
