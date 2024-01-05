@@ -3,6 +3,7 @@ import { LayoutSectionIdEnum } from "../../../types"
 import { Box, Button, Hidden, IconButton, Dialog, AppBar, Toolbar, Typography, Slide } from "@mui/material"
 import { Menu, Close } from "@mui/icons-material"
 import React, { useState } from "react"
+import { TransitionProps } from "@mui/material/transitions"
 
 
 const navigationItems = [
@@ -34,6 +35,7 @@ const navigationItems = [
 
 const Transition = React.forwardRef((
     props: TransitionProps & {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       children: React.ReactElement<any, any>;
     },
     ref: React.Ref<unknown>,

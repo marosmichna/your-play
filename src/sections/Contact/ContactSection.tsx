@@ -1,15 +1,11 @@
-import { Box, Button,  Typography, useMediaQuery, useTheme, Hidden } from '@mui/material';
+import { Box, Typography, useMediaQuery, useTheme } from '@mui/material';
 import React from 'react';
-// import { useForm } from 'react-hook-form';
 import { useForm, ValidationError } from '@formspree/react';
 
 
 
 export const ContactSection: React.FC = () => {
  
-//   const { register, handleSubmit } = useForm();
-//   const [formData, setFormData] = useState("");
-
   const [state, handleSubmit] = useForm("xrgwreog");
 
   const theme = useTheme();
