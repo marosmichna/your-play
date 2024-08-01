@@ -1,6 +1,7 @@
 import { Box, Grid, Typography } from "@mui/material";
 import GameCard from "../../components/Games/GameCard";
 import HangmanImg from "../../assets/games/hangman.jpg";
+import MillionaireImg from "../../assets/games/millionaire.png";
 import SignalCellular1BarIcon from '@mui/icons-material/SignalCellular1Bar';
 import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
 import AuthorAnakin from "../../assets/about/Anakin.jpg"
@@ -39,6 +40,22 @@ export const GamesSection: React.FC = () => {
                     authorImg={AuthorAnakin}
                     authorName= "Anakin Skywalker"
                     gameLink="your-hangman-ibuq2npua-marosmichna.vercel.app"
+                 />
+            </Grid>
+            <Grid item>
+                <GameCard
+                    gamePrice="Free"
+                    favorite= {5}
+                    gameTitle="Millionaire"
+                    gameText="Become a millionaire"
+                    gameImg = {MillionaireImg}
+                    difficultyIcons={<SignalCellular1BarIcon color="primary" />}
+                    difficultyText="Easy"
+                    gameTypeIcons={<PsychologyAltIcon color="primary" />}
+                    gameTypeText="Logical"
+                    authorImg={AuthorAnakin}
+                    authorName= "Anakin Skywalker"
+                    gameLink="millionaire-app-chi.vercel.app/"
                  />
             </Grid>
         </Grid>
